@@ -30,6 +30,7 @@ for i in range(count-1):
 for i in range(count-1):
     print(mas2[i])
 
-
+#расставить точную оценку по проекту, что это за цифры
+#
 
 
