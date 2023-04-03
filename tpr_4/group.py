@@ -32,7 +32,7 @@ def srv2(mas_res, b, eo, a):
         b += 1
     return mas_res
 
-porog = 0.5
+porog = 0.4
 b = 0
 a = 0
 array = []
