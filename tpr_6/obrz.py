@@ -49,14 +49,18 @@ cat_dog.setpos(min(mas4)*size, max(mas5))
 cat_dog.setpos(max(mas4)*size, max(mas5))
 cat_dog.setpos(max(mas4)*size, min(mas5))
 cat_dog.setpos(min(mas4)*size, min(mas5))
-x = float(input())
-y = float(input())
-if (x >= min(mas2)) and (x <= max(mas2)) and (y >= min(mas3)) and (y <= max(mas3)):
-    print("Это кошка")
-elif (x >= min(mas4)) and (x <= max(mas4)) and (y >= min(mas5)) and (y <= max(mas5)):
-    print("Это собака")
-else: print("Это условный енот, или точка отказа")
-while(True):
+def Opr(x, y):
+    if (x >= min(mas2)) and (x <= max(mas2)) and (y >= min(mas3)) and (y <= max(mas3)):
+        print("Это кошка")
+    elif (x >= min(mas4)) and (x <= max(mas4)) and (y >= min(mas5)) and (y <= max(mas5)):
+        print("Это собака")
+    else: print("Это условный енот, или точка отказа")
     cat_dog.up()
     cat_dog.setpos(x*size, y)
     cat_dog.dot(7, "black")
+while(True):
+    x = float(input())
+    y = float(input())
+    Opr(x, y)
+
+
