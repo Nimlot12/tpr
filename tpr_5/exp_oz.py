@@ -77,7 +77,7 @@ for i in range(n):
 summ = sum(mas_otkX2)
 print(summ)
 w = (12*summ)/((m**2)*((n**3)-n))
-print(w)
+print("w = ", w)
 # Метод весовых коэффициентов
 mas_koef = [0.25, 0.1, 0.1, 0, 0, 0.1, 0, 0, 0, 0.2, 0.25, 0]
 for i in range(m):
